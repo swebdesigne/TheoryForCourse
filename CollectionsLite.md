@@ -299,6 +299,7 @@ https://www.codeflow.site/ru/article/java-iterate-list
 ## 14. Как реализован цикл foreach?
 
 `foreach` реализован на основе `Iterator`, т.е. он работает для классов, реализующих интерфейс `Iterable`.
+
 Метод forEach() выполняет заданное действие для каждого элемента Iterable до тех пор, пока все элементы не будут обработаны или действие не вызовет исключение.
 
 (И наоборот, если коллекция `extends` от `Iterable`, то мы можем перебирать элементы этой коллекции с помощью `foreach`)
@@ -378,22 +379,22 @@ es[size = newSize] = null;
 ## 19. Назовите основные методы интерфейса Collections?
 
 Основные:
-+ `int size()`
-+ `boolean isEmpty()`
-+ `boolean contains(Object o)`
-+ `Iterator<E> iterator()`
-+ `Object[] toArray()`
-+ `boolean add(E e)`
-+ `boolean remove(Object o)`
-+ `void clear()`
++ `int size()` - узнать размер
++ `boolean isEmpty()` - проверить на пустоту
++ `boolean contains(Object o)` - проверить наличие
++ `Iterator<E> iterator()` - итерироваться
++ `Object[] toArray()` - получить как массив
++ `boolean add(E e)` - добавить
++ `boolean remove(Object o)` - удалить
++ `void clear()` - очистить
 
 Остальные:
-+ `boolean containsAll(Collection<?> c)`
-+ `boolean addAll(Collection<? extends E> c)`
-+ `boolean removeAll(Collection<?> c)`
-+ `boolean retainAll(Collection<?> c)`
-+ `boolean equals(Object o)`
-+ `int hashCode()`
++ `boolean containsAll(Collection<?> c)` - проверить, содержит ли все элементы из другого списка
++ `boolean addAll(Collection<? extends E> c)` - добавить все из одного в другой
++ `boolean removeAll(Collection<?> c)` - удалить все элементы из другого
++ `boolean retainAll(Collection<?> c)` - оставить только общие
++ `boolean equals(Object o)` - проверить на равенсто
++ `int hashCode()` - тоже проверить на равенство
 
 [к оглавлению](#Collections-Lite)
 
