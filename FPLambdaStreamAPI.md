@@ -270,6 +270,8 @@ https://javahelp.online/osnovy/funktsionalnye-interfeysy-java
 При использовании конструкторов методы функциональных интерфейсов должны принимать тот же список параметров,
 что и конструкторы класса, и должны возвращать объект данного класса.
 
+https://www.bestprog.net/ru/2020/12/23/java-reference-to-the-class-constructor-ru/#q01
+
 [к оглавлению](#FP-Lambda-Stream-API)
 
 ## 8. Расскажите о зоне видимости переменных в lambda выражениях?
