@@ -169,9 +169,11 @@ Class<T> t = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).
 
 ## 7. Назовите базовые интерфейсы коллекций?
 
+![img](https://github.com/johnivo/job4j/blob/master/interview_questions/src/main/resources/collection.jpeg)
+
 + **`Collection`** - коллекция содержит набор объектов (элементов). 
 Здесь определены основные методы для манипуляции с данными, 
-такие как вставка (`add`, `addAll`), удаление (`remove`, `removeAll`, `lear`), поиск (`contains`). 
+такие как вставка (`add`, `addAll`), удаление (`remove`, `removeAll`, `clear`), поиск (`contains`). 
 
 + **`Map** - описывает коллекцию, состоящую из пар "ключ — значение". У каждого ключа только одно значение.
 
