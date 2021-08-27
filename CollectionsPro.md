@@ -169,7 +169,7 @@ Class<T> t = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).
 
 ## 7. Назовите базовые интерфейсы коллекций?
 
-![img](https://github.com/johnivo/job4j/blob/master/interview_questions/src/main/resources/collection.jpeg)
+![img](https://github.com/swebdesigne/TheoryForCourse/blob/main/src/main/resources/collection.jpeg)
 
 + **`Collection`** - коллекция содержит набор объектов (элементов). 
 Здесь определены основные методы для манипуляции с данными, 
