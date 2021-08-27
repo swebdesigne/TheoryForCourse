@@ -298,7 +298,7 @@ LinkedHashSet – это HashSet, в котором элементы храня�
 
 — Зато с Queue ситуация гораздо проще:
 
-![img](https://github.com/swebdesigne/TheoryForCourse/blob/main/src/main/resources/queue.png)
+![img](https://github.com/swebdesigne/TheoryForCourse/blob/main/src/main/resources/queue.jpeg)
 
 Queue – это очередь. Элементы добавляются в конец очереди, а выбираются из ее начала.
 
