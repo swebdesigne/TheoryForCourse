@@ -244,7 +244,7 @@ Set переводится как множество. А множество, с 
 
 Не знаю, давала Элли тебе иерархию наследования для Set, но если нет, то вот она:
 
-![img](https://github.com/swebdesigne/TheoryForCourse/blob/main/src/main/resources/set.png)
+![img](https://github.com/swebdesigne/TheoryForCourse/blob/main/src/main/resources/set.jpeg)
 
 HashSet – это коллекция, которая для хранения элементов внутри использует их хэш-значения, которые возвращает метод hashCode().
 
