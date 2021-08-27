@@ -386,6 +386,15 @@ Map — это структура данных, которая содержит 
 прибавляем хэш-код поля, которое относится к бизнес логике.
 3. Повторяем пункт 2 пока не кончатся поля которые относятся к бизнес-логике.
 
+@Override 
+public int hashCode() {
+	int result = 17;
+	result = 31 * result + areaCode;
+	result = 31 * result + prefix;
+	result = 31 * result + lineNumber;
+	return result;
+}
+	
 [к оглавлению](#Collections-Pro)
 
 ## 14. Расскажите про реализации Map?
