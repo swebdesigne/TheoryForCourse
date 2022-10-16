@@ -474,6 +474,12 @@ public Image getMap() {
     Для инициирования сброса дампа потока, можно отправить процессу JVM сигнал SIGQUIT (kill -3) на платформах Unix или 
     нажать комбинацию клавиш Ctrl-\ в Unix или Ctrl-Break на платформах Windows. 
     Многие IDE также могут запросить дамп потока.
+    
+Способы обнаружения deadlock
+1) jsp
+	1.1) jstack -l pid
+	1.2) kill -9 pid 
+2) jsconsole
 
 гл. 10.1 Взаимоблокировки "Java concurrency in practice" Brian Goetz
 
